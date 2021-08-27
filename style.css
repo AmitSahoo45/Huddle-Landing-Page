@@ -1,0 +1,151 @@
+:root {
+    --poppins: 'Poppins', sans-serif, serif;
+    --Violet: hsl(257, 40%, 49%);
+    --Soft-Magenta: hsl(300, 69%, 71%);
+    --sans: 'Open Sans', sans-serif;
+}
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    color: white;
+    font-family: var(--poppins);
+}
+
+html {
+    background-image: url(/images/bg-desktop.svg);
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-color: var(--Violet);
+}
+
+/* =============================================================================================================== */
+/* =============================================================================================================== */
+/* ============================================================================================================== */
+/* ================================================FATHER-BOX============================================ */
+
+.p14-father-box {
+    margin-left: 3rem;
+}
+
+/* ===========================HEADER================================== */
+.p14-header {
+    height: 90px;
+}
+
+.p14-header>img {
+    width: 140px;
+    height: 100px;
+}
+
+/* =============================================================================================================== */
+/* =============================================================================================================== */
+.p14-parent-box {
+    display: flex;
+    /* clear: left; */
+
+}
+
+.p14-left-box {
+    width: 550px;
+    /* display: block; */
+}
+
+.p14-left-box>img {
+    width: 550px;
+    position: relative;
+    top: 3rem;
+}
+
+.p14-right-box {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-left: 4rem;
+    width: 450px;
+}
+
+.p14-right-box>h2 {
+    width: 400px;
+    font-size: 2.1rem;
+    padding: 1rem 0rem;
+}
+
+.p14-right-box>p {
+    width: 350px;
+    margin: 0.5rem 0rem;
+    font-family: var(--sans);
+    padding-bottom: 1rem;
+    font-size: 0.8rem;
+}
+
+.bttn {
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    color: var(--Violet);
+    background-color: white;
+    box-shadow: 0px 2px 20px 2px rgb(59, 59, 59);
+    border: 2px white solid;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: 0s;
+}
+
+.bttn:hover {
+    border: 2px var(--Soft-Magenta) solid;
+    background-color: var(--Soft-Magenta);
+    color: white;
+    transition-delay: 0.2s;
+    transform: scale(1.15);
+    transition: transform 2s;
+}
+
+/* =========================================================================================== */
+/* =========================================FOOTER============================================== */
+
+footer {
+    display: flex;
+}
+
+.links {
+    display: flex;
+    position: relative;
+}
+
+.fab {
+    filter: brightness(100%);
+}
+
+.links ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    position: absolute;
+    bottom: -100px;
+    left: 77vw;
+}
+
+.fa-facebook,
+.fa-instagram,
+.fa-twitter {
+    border: 2px solid white;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px;
+}
+
+.fa-facebook:hover,
+.fa-instagram:hover,
+.fa-twitter:hover {
+    border: 2px solid var(--Soft-Magenta);
+    color: var(--Soft-Magenta);
+}
+

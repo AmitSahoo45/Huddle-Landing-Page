@@ -1,0 +1,232 @@
+:root {
+    --poppins: 'Poppins', sans-serif, serif;
+    --Violet: hsl(257, 40%, 49%);
+    --Soft-Magenta: hsl(300, 69%, 71%);
+    --sans: 'Open Sans', sans-serif;
+}
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    color: white;
+    font-family: var(--poppins);
+}
+
+
+@media (min-width: 100px) and (max-width: 1060px) {
+    .p14-left-box>img {
+        width: 485px;
+        position: relative;
+        top: 2rem;
+    }
+
+    .p14-right-box {
+        margin-left: 2rem;
+        width: 450px;
+    }
+}
+
+@media (min-width: 100px) and (max-width: 950px) {
+    .p14-left-box>img {
+        width: 425px;
+        position: relative;
+        top: 2rem;
+    }
+
+    .p14-right-box {
+        margin-left: 2rem;
+        width: 450px;
+    }
+
+    .p14-right-box>h2 {
+        width: 350px;
+        font-size: 1.5rem;
+    }
+
+    .bttn {
+        width: 145px;
+        height: 45px;
+    }
+}
+
+@media (min-width: 100px) and (max-width: 900px) {
+    .p14-left-box>img {
+        width: 390px;
+        position: relative;
+        top: 2rem;
+    }
+
+    .p14-right-box {
+        margin-left: 2rem;
+        width: 450px;
+    }
+
+    .p14-right-box>h2 {
+        width: 310px;
+        font-size: 1.5rem;
+    }
+
+    .bttn {
+        width: 145px;
+        height: 45px;
+    }
+}
+
+@media (min-width: 100px) and (max-width: 800px) {
+    .p14-left-box>img {
+        width: 330px;
+        position: relative;
+        top: 2rem;
+    }
+
+    .p14-right-box>p {
+        width: 270px;
+        padding-bottom: 1rem;
+        font-size: 0.7rem;
+    }
+
+    .links ul {
+        position: absolute;
+        bottom: -100px;
+        left: 75vw;
+    }
+}
+
+@media (min-width: 100px) and (max-width: 700px) {
+    .p14-father-box {
+        margin-left: 0rem;
+    }
+
+    /* .p14-header {
+        display: flex;
+    } */
+
+    .p14-header>img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 150px;
+    }
+
+    .p14-parent-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: auto 0;
+    }
+
+    .p14-right-box {
+        width: 450px;
+    }
+
+    .links ul {
+        position: static;
+        text-align: center;
+    }
+
+    .p14-left-box {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 300px;
+        margin-bottom: 2rem;
+    }
+
+    .p14-right-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        margin: 0px;
+        margin: 2rem 0;
+        text-align: center;
+    }
+
+    footer{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media (min-width: 100px) and (max-width: 380px) {
+    .p14-father-box {
+        margin-left: 0rem;
+    }
+
+    .p14-header>img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 150px;
+    }
+
+    .p14-parent-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: auto 0;
+    }
+
+    .p14-right-box {
+        width: 450px;
+    }
+
+    .links ul {
+        position: static;
+        text-align: center;
+    }
+
+    .p14-header {
+        height: 90px;
+    }
+
+    .p14-header > img{
+        width: 170px;
+    }
+
+    .p14-left-box {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 260px;
+        margin-bottom: 2rem;
+    }
+
+    .p14-right-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        margin: 0px;
+        margin: 2rem 0;
+        text-align: center;
+    }
+
+    .p14-right-box>h2 {
+        width: 310px;
+        font-size: 1.2rem;
+    }
+
+    .p14-left-box>img {
+        width: 290px;
+        position: relative;
+        top: 2rem;
+    }
+
+    .bttn {
+        width: 130px;
+        height: 40px;
+        margin: 1rem;
+    }
+
+    footer{
+        display: flex;
+        justify-content: center;
+    }
+}
